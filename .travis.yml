@@ -13,7 +13,7 @@ deploy:
   region: "us-east-1"
   app: "docker-react"
   env: "DockerReact-env"
-  bucket_name: "arn:aws:s3:::elasticbeanstalk-us-east-1-012271343986"
+  bucket_name: "elasticbeanstalk-us-east-1-012271343986"
   bucket_path: "docker-react"
   on:
     branch: master
@@ -21,5 +21,5 @@ deploy:
     secure: "$AWS_ACCESS_KEY"
   secret_access_key:
     secure: "$AWS_SECRET_KEY"
-    
+
 
